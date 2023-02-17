@@ -1,0 +1,57 @@
+﻿Q1: facilité d’analyse
+Q2: facilité de modification
+Q3: stabilité
+Q4: facilité de test
+
+
+Q1 : Le niveau de documentation des classes est-il approprié par rapport à leur complexité ?
+Q2 : La conception est-elle bien modulaire ?
+Q3 : Le code est-il mature ?
+Q4 : Le code peut-il être bien testé automatiquement ?
+
+
+
+
+Question 1 (au niveau de la facilité d’analyse):
+facilité d’analyse = sous-charac de la maintenabilité:
+effort fournis pour diagnostiquer les déficiences et causes de défaillances Ou pour identifier les partis modifier
+
+
+Métrique utilise pour l’analyse:
+1. Exactitude des commentaires selon la classe (trouver une façon d'exprimer sa plus précisément):
+	a. si les commentaire expliquant les fonction sont pertinent, alors cette documentation peut simplifier et diminuer le temps que ca prend dans la recherche de fonction erroné ou à modifier
+
+
+2. Nombre de classe documente/nb de class totale (on aimerais le plus que possible que le seuil soit de 100%):
+	a. pour voir si toutes les classes sont documenté (ainsi, ca permettra facilement de comprendre la tâche de la classe)
+	b. couplé avec la première métrique, on aura une bonne approximation de a quel point le code est bien documenté (car si toutes les classes sont documentés ET qu’elle sont correctement décrite et expliquée, alors ca sera très facile d’analyser le code pour savoir ou porter des modification)
+
+3. taille du commentaire/ taille de la fonction
+	a. on pourra voir en moyenne (ou médiane) s’il y a plus de commentaire que de ligne de code (et si c’est le cas, peut être qu’il y en commentaire des truc inutile qui ne font que encombrer ce qui est important)
+
+
+Question 2 (facilité de modification):
+facilité de modification:
+effort nécessaire pour modifier, remédier aux défauts ou changer d’environnement
+
+1. regarder la cohésion entre les classes/fonctions avec les classes divines en utilisant LCOM (Lack of cohesion in methods):
+	a. On pourra vérifier si la classes ne fait pas trop de chose qu’elle ne devrait peut être pas faire
+2. taille du code d’une fonction :
+	a. avec un seuil préférable à ne pas dépasser, on peut voir la taille des fonctions pour voir si elle n’est pas trop grosse (si elle est trop grosse, peut être que c’est un signe pour créer des sous fonction qui auront elle même leur propre tâche)
+
+Question 3 (stabilité):
+stabilité:
+risque des effets inattendus des modifications
+
+1. Temps moyen entre les erreurs du logiciel
+2. NBAC (nombre de bugs attribuable à une classe
+
+Question 4 (facilité de test):
+facilité de test:
+effort nécessaire pour valider le logiciel modifié
+
+1. PMNT (pourcentage de méthodes non testés)
+	a. on aura une idée d'à quel point le logiciel fonctionne comme il est supposé.
+2. TPC (tests par classe)
+	a. voir s’il y a assez de test pour s'assurer de recouvrir toutes les cas possible et éviter des situations inattendu
+

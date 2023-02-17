@@ -1,0 +1,24 @@
+/nbproject/private/
+/target/classes
+/target/generated-*
+/target/maven-*
+/target/surefire-reports
+/target/test-classes
+/target/jacoco.exec
+/target/jfreechart-2.0.0-SNAPSHOT.jar
+/target/site/jacoco/jacoco-resources
+/target/site/jacoco/org.jfree.*
+
+
+/javadoc/
+
+# Eclipse files #
+/.classpath
+/.project
+/.settings
+
+# Intellij Idea
+.idea
+*.iml
+*.ipr
+*.iws

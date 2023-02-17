@@ -1,0 +1,16 @@
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\plot\Crosshair.java,main.java,Crosshair,540,356
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\text\TextUtils.java,main.java,TextUtils,125,421
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\date\SerialDate.java,main.java,SerialDate,155,435
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\internal\SerialUtils.java,main.java,SerialUtils,709,438
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\data\xy\XYSeries.java,main.java,XYSeries,130,481
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\legend\LegendItem.java,main.java,LegendItem,400,519
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\axis\NumberAxis.java,main.java,NumberAxis,124,648
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\data\time\TimeSeries.java,main.java,TimeSeries,149,669
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\renderer\category\BarRenderer.java,main.java,BarRenderer,143,755
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\plot\Plot.java,main.java,Plot,2780,757
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\axis\CategoryAxis.java,main.java,CategoryAxis,171,795
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\axis\ValueAxis.java,main.java,ValueAxis,492,869
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\JFreeChart.java,main.java,JFreeChart,982,877
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\axis\Axis.java,main.java,Axis,3420,911
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\plot\CategoryPlot.java,main.java,CategoryPlot,263,2700
+jfreechart-master\jfreechart-master\src\main\java\org\jfree\chart\plot\XYPlot.java,main.java,XYPlot,368,3029
